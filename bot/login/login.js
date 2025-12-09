@@ -113,7 +113,7 @@ else {
         subTitleArray.push(subTitle);
 }
 const author = ("Created by NTKhang with ♡");
-const modified = ("Modified by NeoKEX");
+const modified = ("Modified by Gtajisan");
 const srcUrl = ("Source code: https://github.com/ntkhang03/Goat-Bot-V2");
 const fakeRelease = ("ALL VERSIONS NOT RELEASED HERE ARE FAKE");
 for (const t of subTitleArray) {
@@ -541,7 +541,7 @@ async function getAppStateToLogin(loginWithEmail) {
                                                 const number = parseInt(key.name);
                                                 if (number >= 0 && number <= options.length)
                                                         currentOption = number - 1;
-                                                process.stdout.write('\033[1D'); // delete the character
+                                                process.stdout.write('\x1b[1D'); // delete the character
                                         }
                                         else if (key.name === 'enter' || key.name === 'return') {
                                                 rl.input.removeAllListeners('keypress');
@@ -551,7 +551,7 @@ async function getAppStateToLogin(loginWithEmail) {
                                                 resolve();
                                         }
                                         else {
-                                                process.stdout.write('\033[1D'); // delete the character
+                                                process.stdout.write('\x1b[1D'); // delete the character
                                         }
 
                                         clearLines(options.length);

@@ -62,8 +62,8 @@ Dashboard available at port 3001.
 
 ## Credits
 - Original GoatBot V2 by NTKhang (https://github.com/ntkhang03)
-- Modified by NeoKEX
-- Custom commands by Gtajisan
+- Modified & Enhanced by Gtajisan (https://github.com/Gtajisan)
+- Developer: Gtajisan (Farhan) - ffjisan804@gmail.com
 
 ## Recent Changes
 - 2025-12-09: Merged baka-chan-v1 commands with Goatbot-updated base
