@@ -1,7 +1,8 @@
-# Baka-Chan Messenger Bot (Goatbot V2)
+
+# Baka-Chan Messenger Bot (Goat-Bot-business)
 
 ## Overview
-A Facebook Messenger chatbot based on Goatbot V2 framework, merged with custom commands from baka-chan-v1. The bot uses unofficial Facebook Chat API (fca-neokex) for connecting to Messenger.
+A Facebook Messenger chatbot based on Goat-Bot-business framework, merged with custom commands from baka-chan-v1. The bot uses unofficial Facebook Chat API (fca-gtajisan) for connecting to Messenger.
 
 ## Developer
 - **Name**: Gtajisan (Farhan)
@@ -19,7 +20,7 @@ A Facebook Messenger chatbot based on Goatbot V2 framework, merged with custom c
 ├── func/                  # Utility functions
 ├── languages/             # Language files (en, vi)
 ├── logger/                # Logging utilities
-├── neokex_fca_database/   # Custom FCA (Facebook Chat API)
+├── neokex_fca_database/   # Custom FCA (Facebook Chat API) by Gtajisan
 ├── scripts/
 │   ├── cmds/              # Bot commands (156+ commands)
 │   └── events/            # Event handlers (welcome, leave, etc.)
@@ -38,6 +39,7 @@ A Facebook Messenger chatbot based on Goatbot V2 framework, merged with custom c
 - `nickNameBot`: Bot display name
 - `language`: Bot language (en/vi)
 - `database.type`: Database type (sqlite/mongodb/json)
+- `publicInboxMode`: Enable public inbox mode for business accounts
 
 ### account.txt
 Contains Facebook cookies in JSON format. Required for authentication.
@@ -61,12 +63,13 @@ node index.js
 Dashboard available at port 3001.
 
 ## Credits
-- Original GoatBot V2 by NTKhang (https://github.com/ntkhang03)
-- Modified & Enhanced by Gtajisan (https://github.com/Gtajisan)
+- Original Goat-Bot-V2 by NTKhang (https://github.com/ntkhang03)
+- Business Version & Enhanced by Gtajisan (https://github.com/Gtajisan)
 - Developer: Gtajisan (Farhan) - ffjisan804@gmail.com
 
 ## Recent Changes
-- 2025-12-09: Merged baka-chan-v1 commands with Goatbot-updated base
-- Configured for business account inbox
+- 2025-12-09: Merged baka-chan-v1 commands with Goat-Bot-business base
+- Configured for business account inbox with public access
 - Fixed duplicate command conflicts
 - Removed broken/incompatible commands
+- Rebranded from neokex to Gtajisan

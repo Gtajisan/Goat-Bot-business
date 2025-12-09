@@ -1,26 +1,28 @@
+
 <div align="center">
   <img src="https://i.ibb.co/RQ28H2p/banner.png" alt="banner" width="100%">
   
   <h1>
     <img src="./dashboard/images/logo-non-bg.png" width="30px" style="vertical-align: middle">
-    Goat Bot V2 - Enhanced Facebook Messenger Bot
+    Goat Bot Business - Enhanced Facebook Messenger Bot
   </h1>
   
   <p>
     <a href="https://nodejs.org/dist/v20.0.0">
       <img src="https://img.shields.io/badge/Node.js-20.x-brightgreen.svg?style=for-the-badge&logo=node.js" alt="Node.js v20.x">
     </a>
-    <img src="https://img.shields.io/github/repo-size/ntkhang03/Goat-Bot-V2.svg?style=for-the-badge&label=size&color=blue" alt="Repo Size">
-    <img src="https://img.shields.io/badge/dynamic/json?color=orange&label=version&prefix=v&query=%24.version&url=https://github.com/ntkhang03/Goat-Bot-V2/raw/main/package.json&style=for-the-badge" alt="Version">
-    <img src="https://visitor-badge.laobi.icu/badge?style=for-the-badge&page_id=ntkhang3.Goat-Bot-V2&color=red" alt="Visitors">
+    <img src="https://img.shields.io/github/repo-size/Gtajisan/Goat-Bot-business.svg?style=for-the-badge&label=size&color=blue" alt="Repo Size">
+    <img src="https://img.shields.io/badge/dynamic/json?color=orange&label=version&prefix=v&query=%24.version&url=https://github.com/Gtajisan/Goat-Bot-business/raw/main/package.json&style=for-the-badge" alt="Version">
+    <img src="https://visitor-badge.laobi.icu/badge?style=for-the-badge&page_id=Gtajisan.Goat-Bot-business&color=red" alt="Visitors">
     <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="License">
   </p>
   
   <h3>✨ Created by <a href="https://github.com/ntkhang03">NTKhang</a> | Modified & Enhanced by <a href="https://github.com/Gtajisan">Gtajisan</a></h3>
+  <p><em>Public inbox mode enabled - Anyone can use this bot in business account inbox!</em></p>
   
   <p>
     <strong>🚀 No Google Credentials Required!</strong><br>
-    <em>Uses neokex-fca for seamless Facebook integration</em>
+    <em>Uses fca-gtajisan for seamless Facebook integration</em>
   </p>
 </div>
 
@@ -39,6 +41,7 @@
   | 🛡️ **Developer Tools** | Built-in shell & eval for developers (role 4) |
   | 🎯 **Smart Commands** | Auto-suggestion for typos & helpful hints |
   | ☁️ **Deploy Anywhere** | Ready for Render, Railway, Replit, VPS, and more |
+  | 📧 **Business Inbox** | Public inbox mode - works with Facebook business accounts |
   
 </div>
 
@@ -62,13 +65,13 @@
 ## 📝 **Important Notes**
 
 > ⚠️ **Account Safety First**
-> - This bot uses [fca-neokex](https://github.com/Gtajisan/fca-neokex) (Facebook Chat API)
+> - This bot uses [fca-gtajisan](https://github.com/Gtajisan/fca-gtajisan) (Facebook Chat API)
 > - **No Google API credentials needed** - Simple setup with just your Facebook account
 > - Using unofficial APIs may risk account restrictions
 > - **Recommended:** Use a secondary/clone Facebook account
 > - The developers are not responsible for any account issues
 
-### ✨ **What's New in this Enhanced Version**
+### ✨ **What's New in this Business Version**
 - 🎖️ **Advanced Role System**: 5 permission levels (0-4) for granular access control
 - 💎 **Premium Users** (Role 3): Money-based premium features
 - 👨‍💻 **Developers** (Role 4): Full system access with shell & eval commands
@@ -76,6 +79,7 @@
 - 😡 **React to Delete**: Admins/Devs can react with 😡/😠 to unsend bot messages
 - ☁️ **Deploy Ready**: Pre-configured for Render, Railway & more
 - 🎨 **Clean Icons**: Replaced emoji clutter with elegant Unicode icons
+- 📧 **Public Inbox Mode**: Works with Facebook business accounts - anyone can use the bot
 
 ## 🚧 **Requirements**
 - Node.js 16.x or 20.x [Download](https://nodejs.org/dist/v20.0.0) | [Home](https://nodejs.org/en/download/)
@@ -87,8 +91,8 @@
 
 ### 🚀 Quick Start (Local)
 ```bash
-git clone https://github.com/ntkhang03/Goat-Bot-V2.git
-cd Goat-Bot-V2
+git clone https://github.com/Gtajisan/Goat-Bot-business.git
+cd Goat-Bot-business
 npm install
 ```
 Configure `config.json` with your Facebook credentials, then:
@@ -110,7 +114,7 @@ Choose your preferred platform:
 - For VPS/Windows: https://www.youtube.com/watch?v=uCbSYNQNEwY
   
 Summary instructions:
-- See [here](https://github.com/ntkhang03/Goat-Bot-V2/blob/main/STEP_INSTALL.md)
+- See [here](https://github.com/Gtajisan/Goat-Bot-business/blob/main/STEP_INSTALL.md)
 
 
 
@@ -189,15 +193,14 @@ Tutorial has been uploaded on YouTube
 - on vps/computer: https://youtu.be/uCbSYNQNEwY?t=508
 
 ## 🛠️ **How to create new commands**
-- See [here](https://github.com/ntkhang03/Goat-Bot-V2/blob/main/DOCS.md)
+- See [here](https://github.com/Gtajisan/Goat-Bot-business/blob/main/DOCS.md)
 
 ## 💭 **Support**
 If you have major coding issues with this bot, please join and ask for help.
 - https://discord.com/invite/DbyGwmkpVY (recommended)
 - https://www.facebook.com/groups/goatbot
 - https://m.me/j/Abbq0B-nmkGJUl2C
-- ~~https://t.me/gatbottt~~ (no longer supported)
-- ***Please do not inbox me, I do not respond to private messages, any questions please join the chat group for answers. ThankThanks!***
+- ***Please do not inbox me, I do not respond to private messages, any questions please join the chat group for answers. Thanks!***
 
 ## 📚 **Support Languages in source code**
 - Currently, the bot supports 2 languages:
@@ -255,8 +258,9 @@ If you have major coding issues with this bot, please join and ask for help.
 
 ## ❌ **DO NOT USE THE ORIGINAL UNDERGRADUATE VERSION**
 - The use of unknown source code can lead to the device being infected with viruses, malware, hacked social accounts, banks, ...
-- Goat-Bot-V2 is only published at https://github.com/ntkhang03/Goat-Bot-V2, all other sources, all forks from other github, replit,... are fake, violate policy
+- Goat-Bot-business is only published at https://github.com/Gtajisan/Goat-Bot-business, all other sources, all forks from other github, replit,... are fake, violate policy
 - If you use from other sources (whether accidentally or intentionally) it means that you are in violation and will be banned without notice
+
 ## 📸 **Screenshots**
 - ### Bot
 <details>
@@ -353,7 +357,8 @@ If you have major coding issues with this bot, please join and ask for help.
 </details>
 
 ## ✨ **Copyright (C)**
-- **[NTKhang (NTKhang03)](https://github.com/ntkhang03)**
+- **[NTKhang (NTKhang03)](https://github.com/ntkhang03)** - Original Creator
+- **[Gtajisan](https://github.com/Gtajisan)** - Business Version & Enhancements
 
 ## 📜 **License**
 
@@ -372,4 +377,3 @@ If you have major coding issues with this bot, please join and ask for help.
 - Don't claim my source code as your own
 - Do not monetize my source code (such as: buy and sell commands, buy and sell bots, call for donations, etc.)
 - Don't remove/edit my credits (author name) in my source code
-

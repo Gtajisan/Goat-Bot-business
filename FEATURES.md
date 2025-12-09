@@ -1,6 +1,6 @@
 # ✨ Enhanced Features Guide
 
-This document explains all the new features added to this enhanced version of Goat Bot V2.
+This document explains all the new features added to Goat-Bot-business, the enhanced version for Facebook business accounts.
 
 ## 🎭 Advanced Role System
 
@@ -283,4 +283,4 @@ requiredMoney: 5000   // AND have $5000
 
 ---
 
-**Created by NTKhang | Enhanced by Gtajisan**
+**Created by NTKhang | Business Version & Enhanced by Gtajisan**
